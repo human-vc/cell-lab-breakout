@@ -59,7 +59,6 @@
     padding: 24px 20px 60px;
   }
 
-  /* Header */
   header.topbar {
     display: flex;
     align-items: center;
@@ -105,7 +104,6 @@
     background: rgba(67,245,167,0.06);
   }
 
-  /* Progress rail */
   .rail {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -137,7 +135,6 @@
     box-shadow: 0 0 14px rgba(90,214,255,0.35);
   }
 
-  /* Panels */
   .panel {
     margin-top: 20px;
     padding: 24px;
@@ -168,7 +165,6 @@
   .muted { color: var(--muted); }
   .mono { font-family: 'JetBrains Mono', monospace; }
 
-  /* Buttons */
   .btn {
     appearance: none;
     border: 1px solid var(--line);
@@ -192,7 +188,6 @@
   .btn.ghost { background: transparent; }
   .btn.danger { border-color: rgba(255,107,138,0.4); color: var(--danger); }
 
-  /* Intro hero */
   .hero {
     text-align: center;
     padding: 30px 10px 10px;
@@ -230,7 +225,6 @@
     text-align: left;
   }
 
-  /* Room header */
   .room-head {
     display: flex;
     flex-wrap: wrap;
@@ -265,7 +259,6 @@
     line-height: 1.55;
   }
 
-  /* Controls row */
   .controls {
     display: flex;
     gap: 10px;
@@ -304,9 +297,6 @@
     border: 1px dashed rgba(67,245,167,0.5);
   }
 
-  /* ===== Puzzle-specific ===== */
-
-  /* Unit 1: Macromolecule matcher */
   .match-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -378,7 +368,6 @@
   }
   input.txt:focus { outline: none; border-color: var(--accent-2); box-shadow: 0 0 0 3px rgba(90,214,255,0.15); }
 
-  /* Unit 2: Organelle path */
   .cell-canvas {
     position: relative;
     margin: 10px auto;
@@ -422,7 +411,6 @@
   .decoy { opacity: 0.75; }
   .decoy:hover { border-color: var(--danger); }
 
-  /* Unit 3: ATP audit */
   .atp-table {
     width: 100%;
     border-collapse: collapse;
@@ -446,7 +434,6 @@
     text-align: center;
   }
 
-  /* Unit 4: Signal cascade */
   .cascade {
     display: flex;
     flex-direction: column;
@@ -472,7 +459,6 @@
     color: var(--muted);
   }
 
-  /* Unit 5: Punnett + cross */
   .punnett {
     display: grid;
     grid-template-columns: 60px repeat(2, 1fr);
@@ -504,7 +490,6 @@
   .ratio-btn.correct { background: rgba(67,245,167,0.15); border-color: var(--accent); color: var(--accent); }
   .ratio-btn.wrong { background: rgba(255,107,138,0.15); border-color: var(--danger); color: var(--danger); }
 
-  /* Unit 6: Splicing */
   .strand {
     display: flex;
     flex-wrap: wrap;
@@ -543,7 +528,6 @@
   }
   .codon small { color: var(--muted); display: block; margin-top: 4px; }
 
-  /* Unit 7: Cladogram */
   .trait-table {
     width: 100%;
     border-collapse: collapse;
@@ -585,7 +569,6 @@
     overflow-x: auto;
   }
 
-  /* Unit 8: Succession */
   .chain {
     display: flex;
     flex-direction: column;
@@ -606,7 +589,6 @@
   .chain-item:hover { border-color: var(--u8); }
   .chain-item.dragging { opacity: 0.35; }
 
-  /* Final */
   .final-lock {
     display: flex;
     flex-direction: column;
@@ -660,7 +642,6 @@
   }
   .code-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(67,245,167,0.25); }
 
-  /* Victory */
   .cert {
     margin: 14px auto;
     padding: 24px;
@@ -719,7 +700,6 @@
     .code-input { width: 100%; }
   }
 
-  /* Accessibility focus */
   :focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
 </style>
 </head>
@@ -747,7 +727,6 @@
     <div class="node" data-room="8"></div>
   </div>
 
-  <!-- ===== INTRO ===== -->
   <section class="panel screen active" id="screen-intro">
     <div class="hero">
       <span class="tag">● lab power restored</span>
@@ -784,7 +763,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 1: MACROMOLECULES ===== -->
   <section class="panel screen room-1" id="screen-1">
     <div class="room-head">
       <span class="unit-pill">UNIT 1 · CHEMISTRY OF LIFE</span>
@@ -857,7 +835,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 2: ENDOMEMBRANE ===== -->
   <section class="panel screen room-2" id="screen-2">
     <div class="room-head">
       <span class="unit-pill">UNIT 2 · CELL STRUCTURE</span>
@@ -903,7 +880,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 3: POWERHOUSE ===== -->
   <section class="panel screen room-3" id="screen-3">
     <div class="room-head">
       <span class="unit-pill">UNIT 3 · CELLULAR ENERGETICS</span>
@@ -969,7 +945,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 4: SIGNAL CASCADE ===== -->
   <section class="panel screen room-4" id="screen-4">
     <div class="room-head">
       <span class="unit-pill">UNIT 4 · CELL COMMUNICATION & CYCLE</span>
@@ -1028,7 +1003,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 5: HEREDITY ===== -->
   <section class="panel screen room-5" id="screen-5">
     <div class="room-head">
       <span class="unit-pill">UNIT 5 · HEREDITY</span>
@@ -1084,7 +1058,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 6: SPLICE & DECODE ===== -->
   <section class="panel screen room-6" id="screen-6">
     <div class="room-head">
       <span class="unit-pill">UNIT 6 · GENE EXPRESSION</span>
@@ -1135,7 +1108,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 7: CLADOGRAM ===== -->
   <section class="panel screen room-7" id="screen-7">
     <div class="room-head">
       <span class="unit-pill">UNIT 7 · NATURAL SELECTION</span>
@@ -1223,7 +1195,6 @@
     </div>
   </section>
 
-  <!-- ===== ROOM 8: SUCCESSION ===== -->
   <section class="panel screen room-8" id="screen-8">
     <div class="room-head">
       <span class="unit-pill">UNIT 8 · ECOLOGY</span>
@@ -1278,7 +1249,6 @@
     </div>
   </section>
 
-  <!-- ===== FINAL ===== -->
   <section class="panel screen" id="screen-final">
     <div class="room-head">
       <span class="unit-pill" style="color: var(--accent); border-color: rgba(67,245,167,0.4); background: rgba(67,245,167,0.08);">FINAL DOOR</span>
@@ -1310,7 +1280,6 @@
     </div>
   </section>
 
-  <!-- ===== VICTORY ===== -->
   <section class="panel screen" id="screen-victory">
     <div class="hero" style="padding: 10px;">
       <span class="tag" style="background: rgba(67,245,167,0.15); color: var(--accent); border-color: var(--accent);">● ESCAPED</span>
@@ -1336,17 +1305,16 @@
 </div>
 
 <script>
-  // ============ STATE ============
+
   const state = {
     room: 'intro',
     solved: new Array(8).fill(false),
-    letters: new Array(8).fill(null), // ['G','E','N','E','T','I','C','S']
+    letters: new Array(8).fill(null),
     startTime: Date.now(),
     hintsUsed: 0
   };
   const TARGET_CODE = 'GENETICS';
 
-  // ============ NAV ============
   function goTo(room) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
     const id = room === 'intro' ? 'screen-intro'
@@ -1398,7 +1366,6 @@
     return (s || '').trim().toLowerCase().replace(/[^a-z0-9]/g, '');
   }
 
-  // ============ ROOM 1: MACROMOLECULES ============
   (function initRoom1() {
     const mols = document.querySelectorAll('#moleculeDeck .molecule');
     const bins = document.querySelectorAll('.bin-deck .bin');
@@ -1411,7 +1378,7 @@
         e.dataTransfer.setData('text/plain', m.dataset.mol);
       });
       m.addEventListener('dragend', () => m.classList.remove('dragging'));
-      // Touch/click fallback: tap to cycle bins
+
       m.addEventListener('click', () => {
         if (m.classList.contains('placed')) return;
         const order = ['carb','lipid','protein','nucleic'];
@@ -1430,7 +1397,7 @@
         placeMolecule(dragged, b);
         dragged = null;
       });
-      // Tap-to-place fallback
+
       b.addEventListener('click', () => {
         const pending = [...mols].find(m => !m.classList.contains('placed') && m.dataset.pendingBin === b.dataset.bin);
         if (pending) placeMolecule(pending, b);
@@ -1474,7 +1441,6 @@
     }
   }
 
-  // ============ ROOM 2: ENDOMEMBRANE ============
   const r2 = { next: 1, picked: [] };
   (function initRoom2() {
     document.querySelectorAll('#cellCanvas .organelle').forEach(o => {
@@ -1522,15 +1488,14 @@
     }
   }
 
-  // ============ ROOM 3: ATP ============
   function checkRoom3Table() {
     const g = parseInt(document.getElementById('atp-gly').value, 10);
     const k = parseInt(document.getElementById('atp-krebs').value, 10);
     const e = parseInt(document.getElementById('atp-etc').value, 10);
-    // Accept textbook values
+
     const gOK = g === 2;
     const kOK = k === 2;
-    const eOK = e >= 26 && e <= 34; // lenient
+    const eOK = e >= 26 && e <= 34;
     document.getElementById('atp-total').textContent = (isNaN(g+k+e) ? '?' : (g+k+e)) + ' ATP';
     if (gOK && kOK && eOK) {
       setFeedback(3, `A total of about -e ATP matches what the textbook predicts. One more question and the room will unlock.`, 'ok');
@@ -1554,7 +1519,6 @@
     }
   }
 
-  // ============ ROOM 4: SIGNAL CASCADE ============
   (function initRoom4() {
     const container = document.getElementById('cascade');
     let dragged = null;
@@ -1603,7 +1567,6 @@
     }
   }
 
-  // ============ ROOM 5: PUNNETT + CROSS ============
   const r5 = { cells: ['Pp','Pp','pp','pp'], next: 0, ratio: false };
   (function initRoom5() {
     const squares = [
@@ -1660,7 +1623,6 @@
     }
   }
 
-  // ============ ROOM 6: SPLICE & DECODE ============
   (function initRoom6() {
     document.querySelectorAll('#strand .seg').forEach(seg => {
       seg.addEventListener('click', () => {
@@ -1676,7 +1638,6 @@
     const seq = remaining.map(s => s.dataset.seq).join('');
     document.getElementById('matureMRNA').textContent = seq || '?';
 
-    // Render codon grid
     const codons = remaining.map(s => s.dataset.seq).filter(s => s.length === 3);
     const codonMap = { AUG: 'Met (M)', GAU: 'Asp (D)', AAU: 'Asn (N)', GCA: 'Ala (A)', UAA: 'STOP' };
     const grid = document.getElementById('codonGrid');
@@ -1684,7 +1645,6 @@
       `<div class="codon"><strong>${c}</strong><small>${codonMap[c] || '?'}</small></div>`
     ).join('');
 
-    // Correct splicing: remove the 3 introns, keep 5 exons
     const introns = [...segs].filter(s => s.dataset.type === 'intron');
     const exons   = [...segs].filter(s => s.dataset.type === 'exon');
     const introsRemoved = introns.every(s => s.classList.contains('removed'));
@@ -1693,7 +1653,7 @@
     if (introsRemoved && exonsKept) {
       setFeedback(6, 'You spliced it correctly, and the amino acid sequence reads M, D, N, A, and then STOP. One last question stands between you and the letter.', 'ok');
       showQuestion(6);
-      // Lock segments
+
       segs.forEach(s => s.classList.add('locked'));
     }
   }
@@ -1708,7 +1668,6 @@
     }
   }
 
-  // ============ ROOM 7: CLADOGRAM ============
   function pickTree(card) {
     document.querySelectorAll('.tree-card').forEach(c => c.classList.remove('selected','correct','wrong'));
     const pick = card.dataset.tree;
@@ -1733,7 +1692,6 @@
     }
   }
 
-  // ============ ROOM 8: SUCCESSION ============
   (function initRoom8() {
     const container = document.getElementById('chain');
     let dragged = null;
@@ -1782,7 +1740,6 @@
     }
   }
 
-  // ============ FINAL ============
   function syncCollected() {
     const cells = document.querySelectorAll('#collected .col-letter');
     cells.forEach((c, i) => {
@@ -1811,7 +1768,6 @@
     }
   }
 
-  // ============ BOOT ============
   updateRail();
 </script>
 </body>
