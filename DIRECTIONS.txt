@@ -1,33 +1,28 @@
 The Cell Lab Breakout
 An AP Bio review game. Runs in any browser.
 
-
 The setup
-You're locked in Dr. Krebs' bio lab the night before the AP exam. Eight rooms stand between you and the door, one for each unit. Each room hides a letter. Get all 8 letters, spell the word, escape.
-
+It's the night before the AP test, and you're locked in Dr. Krebs' biology lab. There are 8 rooms between you and freedom, one for each unit. Each room is a letter. Find the 8 letters, use them, escape.
 
 How to play
-Open index.html in Chrome, Safari, Firefox, or Edge. Click "Enter Room 1" on the welcome screen. Each room is a short puzzle, and once you solve it a final question shows up that gives you the letter for that room. After Room 8 you type all 8 letters into the final lock.
+Load index.html in Chrome, Safari, Firefox, or Edge. Click on "Enter Room 1" on the main page. All rooms are a mini-puzzle, and once complete, a final question appears to give you the room's letter. When you're done Room 8, you enter the 8 letters into the lock.
 
-The bar at the top of the screen shows which rooms you've cleared. There's a hint button on every room if you get stuck. Hints don't penalize you, they just get counted on the certificate at the end.
-
+On the top there's a bar telling you which rooms you have done. You can click the hint button on each room. They don't cost you points, just count on your certificate.
 
 The rooms
-1. Chemistry of Life: drag 4 molecules into the right macromolecule bins.
-2. Cell Structure: trace a secreted protein by clicking organelles in order.
-3. Cellular Energetics: fill in the ATP yields for glycolysis, Krebs, and the ETC.
-4. Cell Communication: drag the GPCR cascade steps into the right order.
-5. Heredity: fill in a Punnett square for Pp x pp and pick the right ratio.
-6. Gene Expression: click the introns out of a pre-mRNA.
-7. Natural Selection: read a trait table and pick the right cladogram.
-8. Ecology: drag the stages of primary succession into order.
-
+Chemistry of Life: place 4 molecules into the correct macromolecule bins.
+Cell Structure: click the organelles in the order needed for a secreted protein.
+Cellular Energetics: drag the numbers of ATP made by glycolysis, Krebs, and the ETC.
+Cell Communication: put the GPCR cascade in the correct sequence.
+Heredity: fill in a Punnett square for Pp x pp and pick the right ratio.
+Gene Expression: cut the introns out of a pre-mRNA.
+Natural Selection: fill in a trait table and select the correct cladogram.
+Ecology: click the stages of primary succession out of order.
 
 Notes
-There's no timer. The game tracks your total time and the number of hints you used, and both show up on the certificate so you can replay and try to beat your run. Hints are unlimited. Once it loads, the whole thing runs offline.
-
+There's no timer. It does keep track of your time and how many hints you use, and it displays them on the certificate so you can play again and improve your time. Hints are unlimited. Once the game loads, it's all offline.
 
 For class use
-Easiest setup is to drop index.html in Canvas or Drive and let everyone open it on their own laptop, Chromebook, or phone. Group stations work too, or you can project it and play as a class.
+Simplest way to use is to put index.html into Canvas or Drive and have students open it in their laptop, Chromebook or phone. You can play at stations, or project and play together.
 
-When you finish you get a certificate with your time and hint count. Print it or screenshot it.
+At the end it gives you a certificate with your time and hints used. Print it or take a screenshot.
