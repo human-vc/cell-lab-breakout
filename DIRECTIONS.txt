@@ -1,42 +1,33 @@
-THE CELL LAB BREAKOUT
-AP Biology Final Review. Student Directions. Playable on any computer or phone browser.
+The Cell Lab Breakout
+An AP Bio review game. Runs in any browser.
 
 
-PREMISE
-You have been locked inside Dr. Krebs' biology lab overnight, and the AP Exam begins at sunrise. Between you and the door are eight containment rooms, one for every unit of AP Biology, and each of those rooms hides a single letter of the escape code, so if you work your way through all eight and collect every letter, you can finally spell the word that opens the final lock and walk out before the exam starts.
+The setup
+You're locked in Dr. Krebs' bio lab the night before the AP exam. Eight rooms stand between you and the door, one for each unit. Each room hides a letter. Get all 8 letters, spell the word, escape.
 
 
-HOW TO PLAY
-To start the game, open the file called index.html in any modern browser such as Chrome, Safari, Firefox, or Edge, and click the button that says Enter Room 1 on the welcome screen. Each room presents an interactive puzzle built around one of the eight AP Biology units, and once you solve the puzzle you will be asked a short final question that unlocks the letter for that room.
+How to play
+Open index.html in Chrome, Safari, Firefox, or Edge. Click "Enter Room 1" on the welcome screen. Each room is a short puzzle, and once you solve it a final question shows up that gives you the letter for that room. After Room 8 you type all 8 letters into the final lock.
 
-You move through the rooms in order from one to eight, and the progress bar at the top of the screen keeps track of which rooms you have already solved as you go. After you finish Room 8, a final door screen appears where you type the eight letters you collected to escape the lab and unlock your certificate. If you ever get stuck inside a room, you can click the Hint button at the bottom of that room, and using a hint does not lock you out of finishing or mess up your score in any way.
-
-
-THE EIGHT ROOMS
-Room 1, Chemistry of Life: sort four biological molecules into the correct macromolecule families and then identify the polysaccharide that animals use for energy storage.
-Room 2, Cell Structure and Function: trace a secreted protein through the endomembrane system by clicking the organelles in the correct order along the secretory pathway.
-Room 3, Cellular Energetics: fill in the net ATP yields from glycolysis, the Krebs cycle, and the electron transport chain, and then identify the main electron carrier that drives chemiosmosis.
-Room 4, Cell Communication and Cell Cycle: drag the five steps of a GPCR signal transduction cascade into the correct order using the classic epinephrine example that triggers glycogen breakdown.
-Room 5, Heredity: fill out a Punnett square for a Pp by pp cross, identify the one-to-one phenotypic ratio, and name the specific type of cross that was just performed.
-Room 6, Gene Expression and Regulation: splice the introns out of a pre-mRNA transcript by clicking the non-coding segments, and then decode the mature mRNA into its short amino acid sequence.
-Room 7, Natural Selection: read a trait matrix for five organisms and pick the one cladogram that correctly represents their evolutionary relationships.
-Room 8, Ecology: order the stages of primary ecological succession, starting with bare volcanic rock and ending with a mature climax community.
+The bar at the top of the screen shows which rooms you've cleared. There's a hint button on every room if you get stuck. Hints don't penalize you, they just get counted on the certificate at the end.
 
 
-RULES OF ENGAGEMENT
-The game works for solo play or as a station activity for small groups of two to four students, and there is no time limit because the point is to review rather than to race. The game does quietly track your total time and how many hints you used, and it shows you those numbers at the very end on a printable certificate, so if you want to challenge yourself you can always refresh the page and try to beat your previous run. Hints are free to use and you can use as many as you want, because the goal is for you to review the content, not to be stumped into giving up. Once the page finishes loading, the whole game runs offline and does not need any internet connection, which makes it ideal for classroom stations or any setup where the WiFi is unreliable.
+The rooms
+1. Chemistry of Life: drag 4 molecules into the right macromolecule bins.
+2. Cell Structure: trace a secreted protein by clicking organelles in order.
+3. Cellular Energetics: fill in the ATP yields for glycolysis, Krebs, and the ETC.
+4. Cell Communication: drag the GPCR cascade steps into the right order.
+5. Heredity: fill in a Punnett square for Pp x pp and pick the right ratio.
+6. Gene Expression: click the introns out of a pre-mRNA.
+7. Natural Selection: read a trait table and pick the right cladogram.
+8. Ecology: drag the stages of primary succession into order.
 
 
-CLASSROOM USE FOR THIRTY-FIVE STUDENTS
-The simplest way to use this with the whole class is to share the index.html file through Canvas or Google Drive and have every student open it on their own laptop, Chromebook, or phone, so all thirty-five students can play through the escape room individually at their own pace. A station rotation also works well, where four to eight devices are set up around the room with small groups of four to five students rotating through, each group tackling one or two rooms before moving on to the next station. If you want a whole-class experience, the game can be projected onto the board and solved together as a warm-up activity, with different students taking turns making decisions for each room. A fun variation is to turn it into a race where the first group that successfully types the correct eight-letter escape code is the winner.
+Notes
+There's no timer. The game tracks your total time and the number of hints you used, and both show up on the certificate so you can replay and try to beat your run. Hints are unlimited. Once it loads, the whole thing runs offline.
 
 
-GRADING AND COMPLETION EVIDENCE
-When you successfully enter the correct eight-letter escape code at the final door, a printable certificate appears on the screen showing your total time and the number of hints you used, so you can print it or screenshot it as proof that you finished the game.
+For class use
+Easiest setup is to drop index.html in Canvas or Drive and let everyone open it on their own laptop, Chromebook, or phone. Group stations work too, or you can project it and play as a class.
 
-
-CONTENT COVERAGE
-This review is aligned to the College Board's AP Biology framework and covers all eight units of the course, with each room built around a high-yield concept from its assigned unit. Unit 1 covers macromolecule classification and animal energy storage, Unit 2 covers the endomembrane system and the secretory pathway, and Unit 3 covers cellular respiration and the role of electron carriers in ATP production. Unit 4 focuses on GPCR signal transduction and enzyme cascades, Unit 5 focuses on Mendelian genetics and the testcross methodology, and Unit 6 focuses on pre-mRNA processing, splicing, transcription, and translation. Unit 7 covers cladistics and phylogenetic reasoning based on trait matrices, and Unit 8 covers ecological succession and the basic dynamics of a community as it changes over time.
-
-
-Original content designed specifically for AP Biology Review Stations.
+When you finish you get a certificate with your time and hint count. Print it or screenshot it.
