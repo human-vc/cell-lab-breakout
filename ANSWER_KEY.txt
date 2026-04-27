@@ -4,86 +4,77 @@ The Cell Lab Breakout. All 8 rooms.
 Final code: GENETICS
 Letter from each room in order: G, E, N, E, T, I, C, S
 
-
 Room 1, Chemistry of Life
 Sort the 4 molecules:
-- Glucose: carbohydrate
-- Triglyceride: lipid
-- Keratin: protein
-- mRNA: nucleic acid
+Glucose: carbohydrate
+Triglyceride: lipid
+Keratin: protein
+mRNA: nucleic acid
 
-Final question: Which polysaccharide do animals store glucose as in liver and muscle?
+Last question: What is the polysaccharide that animals use to store glucose in the liver and muscle?
 Answer: glycogen. Letter: G.
 
-
 Room 2, Cell Structure
-Click the organelles in this order: nucleus, ribosome, rough ER, Golgi, vesicle. Mitochondrion, lysosome, and chloroplast are decoys and reset the path if you click them.
+Click the following organelles in order: nucleus, ribosome, rough ER, Golgi, vesicle. Mitochondrion, lysosome and chloroplast are redirections and will restart the process.
 
-Final question: Type the abbreviation of the organelle the polypeptide enters first.
+Last question: What is the abbreviation of the first organelle the polypeptide enters?
 Answer: ER (or RER). Letter: E.
-
 
 Room 3, Cellular Energetics
 ATP per glucose:
-- Glycolysis: 2
-- Krebs: 2
-- ETC: about 28 (the game accepts anything from 26 to 34)
-- Total: about 32
+Glycolysis: 2
+Krebs: 2
+ETC: about 28 (the game allows anything between 26 and 34)
+Total: about 32
 
-Final question: The main electron carrier feeding the ETC?
+Final question: The primary electron donor to the ETC?
 Answer: NADH. Letter: N.
-
 
 Room 4, Cell Communication
 GPCR cascade in order:
-1. Epinephrine binds the GPCR.
-2. Receptor activates a G-protein.
-3. G-protein activates adenylyl cyclase, which makes cAMP.
-4. cAMP activates protein kinase A.
-5. PKA triggers glycogen breakdown into glucose.
+GPCR is bound by epinephrine.
+Receptor activates a G-protein.
+G-protein turns on adenylyl cyclase, which produces cAMP.
+cAMP activates PKA.
+PKA promotes breakdown of glycogen to make glucose.
 
-Final question: General term for a biological catalyst?
+Last question: General name for a catalyst?
 Answer: enzyme. Letter: E.
-
 
 Room 5, Heredity
 Punnett for Pp x pp:
-- Offspring genotypes: Pp, Pp, pp, pp
-- Phenotype ratio: 1:1
+Genotypes of the offspring: Pp, Pp, pp, pp
+Phenotype ratio: 1:1
 
-Final question: Cross of a dominant phenotype with a homozygous recessive?
+Last question: Testcross?
 Answer: testcross. Letter: T.
 
-
 Room 6, Gene Expression
-Pre-mRNA has 5 exons and 3 introns. The introns all start with GU and end with AG. Click them to splice them out.
-- Keep: AUG, GAU, AAU, GCA, UAA
-- Remove: GUAAAG, GUACAG, GUAUAG
-- Mature mRNA: AUG GAU AAU GCA UAA
-- Amino acids: Met, Asp, Asn, Ala, STOP. The middle three single-letter codes spell DNA.
+The pre-mRNA has 5 exons and 3 introns. All introns begin with GU and end with AG. Click to remove them.
+Preserve: AUG, GAU, AAU, GCA, UAA
+Remove: GUAAAG, GUACAG, GUAUAG
+mRNA: AUG GAU AAU GCA UAA
+Amino acids: Met, Asp, Asn, Ala, STOP. The middle three single-letter amino acids are like DNA.
 
-Final question: What are the non-coding parts of a pre-mRNA called?
+Last question: What are the introns of a pre-mRNA?
 Answer: introns. Letter: I.
 
-
 Room 7, Natural Selection
-The trait table is cumulative. Lancelet has no derived traits, lamprey adds vertebrae, salamander adds 4 limbs, lizard adds the amniotic egg, mouse adds hair. The right tree nests each new species into the previous clade.
+The trait table is cumulative. Lancelet has no traits, lamprey has vertebrae, salamander has 4 limbs, lizard has the amniotic egg, mouse has hair. The correct tree branches (nests) each new species within the previous group.
 Correct answer: Tree A.
 
-Final question: Diagram showing evolutionary relationships based on shared derived traits?
+Final question: Tree showing evolutionary relationships based on shared derived traits?
 Answer: cladogram. Letter: C.
-
 
 Room 8, Ecology
 Order of primary succession:
-1. Bare rock after the eruption
-2. Lichens and mosses move in, soil starts forming
-3. Grasses and shrubs
-4. Mature forest (climax)
+Bare rock after the eruption
+Lichens and mosses, soil begins to form
+Grasses and shrubs
+Mature forest (climax)
 
-Final question: Gradual community change ending in a climax community is ecological...
+Last question: The progressive change in community leading to a climax community is ecological…
 Answer: succession. Letter: S.
 
-
 Final door
-The letters in order spell GENETICS. After typing it correctly the player sees a certificate with their time and hint count.
+The letters spell Genetics. When they get it right they are presented with a certificate with their time and number of hints used.
